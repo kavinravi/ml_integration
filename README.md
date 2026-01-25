@@ -26,10 +26,14 @@ python3 -m venv venv # to setup the venv
 
 source venv/bin/activate # to activate the venv
 ```
+## How to Use Local Inference (User Input):
+1. Make sure venv is active (see above section)
+2. Run the following command, making sure that a) venv is active with dependencies installed, b) you're in the correct wd, c) have the correct interpreter selected (3.11), and d) you've got the joblib model:
+```bash
+    python3 inference.py
+```
 
 ## Next Steps
-
-- add dynamic inference (user input?)
 - build out tentative frontend (gradio/streamlit)
 - training in production?
 
