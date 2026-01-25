@@ -1,0 +1,9 @@
+pandas
+numpy
+plotnine
+matplotlib
+scikit-learn
+xgboost
+ipykernel
+scikit-optimize
+
