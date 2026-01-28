@@ -7,4 +7,4 @@ xgboost
 ipykernel
 scikit-optimize
 joblib
-
+gradio
