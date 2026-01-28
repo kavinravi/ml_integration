@@ -33,7 +33,13 @@ source venv/bin/activate # to activate the venv
     python3 inference.py
 ```
 
+## How to Use Frontend (w/ Gradio):
+1. Make sure venv is active
+2. Run the following command, and wait as it can sometimes take a minute or so to launch:
+```bash
+    python3 frontend.py
+```
+
 ## Next Steps
-- build out tentative frontend (gradio/streamlit)
 - training in production?
 
